@@ -1,0 +1,11 @@
+apiVersion: k3d.io/v1alpha2
+kind: Simple
+name: minio-tenant
+servers: 1
+agents: 4
+image: rancher/k3s:v1.19.4-k3s1
+
+options:
+  kubeconfig:
+    updateDefaultKubeconfig: true
+    switchCurrentContext: true
