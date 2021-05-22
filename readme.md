@@ -1,4 +1,4 @@
-# Distributed Workstations
+# K8s Minio Demo
 
 This is a working demo of Minio deployemnt on Kubernetes `k3s` through a local `k3d` cluster in docker.
 Minio is deployed using a Minio-operator for Kubernetes.
